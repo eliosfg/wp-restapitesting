@@ -18,7 +18,7 @@ public class AuthenticationSteps {
     private static Response response;
 
     @Given("I send a POST request with a valid username and password")
-    public void getUserCredentials() {
+    public void setUserCredentials() {
 //        System.out.println(credentialManager.getUserName("admin"));
 //        System.out.println(credentialManager.getPassword("admin"));
 //        Map<String, Object> jsonAsMap = new HashMap<>();

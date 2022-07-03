@@ -62,15 +62,6 @@ public class APIManager {
     }
 
     /**
-     * This method is used to set the Token value for the authentication.
-     * @param token the value of the Token.
-     * @return the header of the request containing the token.
-    */
-    public RequestSpecification setTokenAuthentication(String token) {
-        return RestAssured.given().header("Authorization", "Bearer " + token);
-    }
-
-    /**
      * This method is used to do a GET request to a specific endpoint.
      * @param endpoint the endpoint for the request.
      * @return the response of the GET request.
